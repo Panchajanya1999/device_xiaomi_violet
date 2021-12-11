@@ -1100,21 +1100,10 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|f98b5eef4e9851ee4ff9546685e9c2fc2ba9e35a
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|64e17127e63d9e7c811eab805e518a0c572f7089
 
-# Thermal
-vendor/lib64/libthermalclient.so
-
-# Thermal Engine
-vendor/bin/thermal-engine
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-camera.conf
-vendor/etc/thermal-engine-high.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/etc/thermal-engine-pubgmhd.conf
-vendor/etc/thermal-engine-sgame.conf
-vendor/etc/thermal-engine-studio.conf
-vendor/etc/thermal-engine-tgame.conf
-vendor/lib64/libthermalfeature.so
+# Thermal - from LA.UM.9.1.r1-10600-SMxxx0.0
+vendor/bin/thermal-engine|de1adc7a4adbb117123aa5bb116c5df83c686433
+-vendor/lib/libthermalclient.so|de1adc7a4adbb117123aa5bb116c5df83c686433
+-vendor/lib64/libthermalclient.so|de1adc7a4adbb117123aa5bb116c5df83c686433
 
 # Time - from davinci-user 11 RKQ1.200826.002 21.6.11 release-keys
 -vendor/app/TimeService/TimeService.apk|7d176a69b270006a511a3c30f544db98a0ccaa37
