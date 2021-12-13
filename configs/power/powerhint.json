@@ -268,7 +268,7 @@
       "Name": "UpMigrate",
       "Path": "/proc/sys/kernel/sched_upmigrate",
       "Values": [
-        "0x5F",
+        "0x49",
         "0x32"
       ]
     },
@@ -276,7 +276,7 @@
       "Name": "DownMigrate",
       "Path": "/proc/sys/kernel/sched_downmigrate",
       "Values": [
-        "0x55",
+        "0x25",
         "0x28"
       ]
     },
