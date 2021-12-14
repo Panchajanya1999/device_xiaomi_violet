@@ -33,6 +33,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a55
 # Assert
 TARGET_OTA_ASSERT_DEVICE := violet
 
+# Animation for offline charging
+TARGET_PIXEL_CHARGE_ANIM := true
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
