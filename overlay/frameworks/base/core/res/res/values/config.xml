@@ -553,4 +553,7 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>me.evolution.keyhandler.KeyHandler</item>
     </string-array>
+    
+    <!-- Pocket Mode -->
+    <bool name="config_pocketModeSupported">false</bool>    
 </resources>
