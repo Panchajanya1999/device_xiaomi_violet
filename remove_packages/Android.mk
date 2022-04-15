@@ -15,7 +15,11 @@ LOCAL_OVERRIDES_PACKAGES := \
     SCONE \
     ScribePrebuilt \
     Snap \
-    DevicePolicyPrebuilt
+    DevicePolicyPrebuilt \
+    Camera2 \
+    PlayAutoInstallConfig \
+    PrebuiltGmail \
+    OemDmTrigger
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := platform
