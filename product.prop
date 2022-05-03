@@ -36,14 +36,12 @@ ro.com.google.ime.kb_pad_port_b=1
 ro.sf.lcd_density=420
 
 # Graphics
-debug.renderengine.backend=skiaglthreaded
 debug.cpurend.vsync=false
 debug.sf.latch_unsignaled=1
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_gl_backpressure=1
 persist.demo.hdmirotationlock=false
 persist.hwc.enable_vds=1
-renderthread.skia.reduceopstasksplitting=true
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.has_wide_color_display=true
@@ -84,3 +82,8 @@ persist.vendor.delta_time.enable=true
 # Wireless display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true 
