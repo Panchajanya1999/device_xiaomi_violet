@@ -11,6 +11,7 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_MINI_GAPPS := true
 
 # Bootanimation Resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
