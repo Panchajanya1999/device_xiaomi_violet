@@ -29,10 +29,10 @@ cc_library {
 }
 
 cc_binary {
-    name: "android.hardware.power-service.sm6150-libperfmgr",
+    name: "android.hardware.power-service.violet-libperfmgr",
     relative_install_path: "hw",
-    init_rc: ["aidl/android.hardware.power-service.sm6150-libperfmgr.rc"],
-    vintf_fragments: ["aidl/android.hardware.power-service.sm6150.xml"],
+    init_rc: ["aidl/android.hardware.power-service.violet-libperfmgr.rc"],
+    vintf_fragments: ["aidl/android.hardware.power-service.violet.xml"],
     vendor: true,
     shared_libs: [
         "android.hardware.power-V1-ndk_platform",

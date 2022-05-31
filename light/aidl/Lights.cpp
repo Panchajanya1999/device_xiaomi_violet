@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.lights-service_xiaomi.sm6150"
+#define LOG_TAG "android.hardware.lights-service_xiaomi.violet"
 
 #include "Lights.h"
 #include <android-base/file.h>

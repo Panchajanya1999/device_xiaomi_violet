@@ -14,10 +14,10 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.lights-service.xiaomi_sm6150",
+    name: "android.hardware.lights-service.xiaomi_violet",
     relative_install_path: "hw",
-    init_rc: ["aidl/android.hardware.lights.xiaomi_sm6150.rc"],
-    vintf_fragments: ["aidl/android.hardware.lights.xiaomi_sm6150.xml"],
+    init_rc: ["aidl/android.hardware.lights.xiaomi_violet.rc"],
+    vintf_fragments: ["aidl/android.hardware.lights.xiaomi_violet.xml"],
     vendor: true,
     shared_libs: [
         "libbase",
