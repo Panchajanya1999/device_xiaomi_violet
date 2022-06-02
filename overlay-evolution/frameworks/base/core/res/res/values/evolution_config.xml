@@ -38,5 +38,7 @@
     <!-- Whether device has a physical display cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
 
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">false</bool>
+    <bool name="config_enableLiveDisplay">false</bool>
 </resources>
-
