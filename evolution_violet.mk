@@ -6,7 +6,7 @@
 #
 
 # Inherit from violet device.
-$(call inherit-product, device/xiaomi/violet/device.mk)
+$(call inherit-product, device/xiaomi/violet/violet.mk)
 
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
