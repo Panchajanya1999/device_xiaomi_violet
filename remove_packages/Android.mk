@@ -10,7 +10,9 @@ LOCAL_OVERRIDES_PACKAGES := \
     GoogleCamera \
     SCONE \
     Snap \
-    Camera2
+    Camera2 \
+    TurboPrebuilt \
+    TurboAdapter
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := platform
