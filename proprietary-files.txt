@@ -653,6 +653,12 @@ vendor/lib64/libpvr.so|0d293cfcac615cfadd41aeeba36a336869e51edc
 vendor/lib/hw/vulkan.adreno.so|3111afef634cdabcd20f2db66a9f5d7c7ae439ee
 vendor/lib64/hw/vulkan.adreno.so|b65f4b27bd946fc5950b7b6b039205ac877e5bfd
 
+# HotwordEnrollment
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED|47cd4ed29ce7a556dcdf9b1be6675ddbbb7fca63
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;PRESIGNED|3d8943911ae38e0604f46f34c1a295371b483af4
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be426a66be09dd08ab9c1921327ef0
+
 # IPA Firmware
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
