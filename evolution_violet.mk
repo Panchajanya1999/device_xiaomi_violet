@@ -12,6 +12,7 @@ $(call inherit-product, device/xiaomi/violet/violet.mk)
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_MINI_GAPPS := true
+TARGET_ENABLE_BLUR := false
 
 # Bootanimation Resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
