@@ -5,8 +5,17 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# 32-Bit TARGET Architecture support
+TARGET_SUPPORTS_32BIT := false
+
 # Inherit from those products. Most specific first.
+ifeq ($(TARGET_SUPPORTS_32BIT), true)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+else
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
+LOCAL_64ONLY := _64
+endif
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 

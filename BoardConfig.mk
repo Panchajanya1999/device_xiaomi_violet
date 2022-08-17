@@ -20,11 +20,17 @@ TARGET_ARCH_VARIANT := armv8-2a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_VARIANT := cortex-a55
 
+# 32-Bit TARGET Architecture support
+TARGET_SUPPORTS_32BIT := false
+
+# Check if target supports 32-Bit
+ifeq ($(TARGET_SUPPORTS_32BIT), true)
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv8-2a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a55
+endif
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := violet
